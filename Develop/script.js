@@ -30,14 +30,14 @@ function generatePassword() {
   selection = window.prompt(
     'How many Characters long do you want your pass word to be?? **MUST BE BETWEEN 8 AND 128**'
   );
+  console.log(selection);
 
   if (selection >= 8 && selection <= 128) {
     return createPassword();
-  } else if (!selection) {
+  } else if (selection === null) {
     window.alert('Maybe next time!');
-  } else if (selection === NaN) {
-    window.alert('Invalid input, Please try again!');
-    generatePassword();
+  } else if (selection === undefined) {
+    window.alert('Maybe next time!');
   } else {
     if (
       window.confirm(

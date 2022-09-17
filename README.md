@@ -4,6 +4,13 @@
 
 ![me](./Assets/Screenshot_1.jpg)
 
+## Description
+
+Github:
+https://github.com/roflmelon/utor-assignment3
+
+Live Link: https://roflmelon.github.io/utor-assignment3/
+
 ## Installation
 
 N/A
